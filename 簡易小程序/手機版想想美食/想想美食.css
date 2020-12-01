@@ -1,0 +1,233 @@
+body{
+  margin: 0;
+  background: url(i/bg.png) no-repeat  #191919;;
+  background-size: 100%;
+  color: white;
+}
+
+.content{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2.72rem 1.066667rem;
+}
+
+.main-title{
+  font-size: 1.173333rem;
+  text-align: center;
+}
+
+.white-line{
+  height: 1px;
+  background: white;
+  opacity: .2;
+  margin-top: 1.28rem;
+  margin-bottom: 2.133333rem;
+}
+
+.gray-line{
+  height: 1px;
+  border: solid 1px #2e2e2e;
+  background: #2e2e2e;
+  margin-top: 1.066667rem;
+  margin-bottom: 1.066667rem;
+}
+
+.items-box .item .name{
+  font-size: .853333rem;
+}
+
+.items-box .item .describe{
+  font-size: .64rem;
+  opacity: 0.8;
+  margin-top: .426667rem;
+}
+
+.items-box .item img{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: .8rem;
+  height: 12rem; 
+}
+
+.items-box .item .exinfo{
+  margin-top: 1.173333rem;
+  color: #d44b62;
+  font-size: .746667rem; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items-box .item .exinfo span{
+  display: flex;
+  align-items: center;
+}
+
+.items-box .item .exinfo i{
+  display: inline-block;
+  background-size: 100%;
+  margin-right: .533333rem;
+}
+
+.items-box .item .exinfo i.like{
+  background-image: url(./i/icon-heart.png);
+  width: .746667rem;
+  height: .746667rem;
+}
+
+.items-box .item .exinfo i.comments{
+  background-image: url(./i/icon-chat.png);
+  width: .96rem;
+  height: .853333rem;
+}
+
+.items-box .item .exinfo i.share{
+  background-image: url(./i/icon-share.png);
+  width: .853333rem;
+  height: .853333rem;
+  margin-right: 0;
+}
+
+.items-box .item .show-more {
+  font-size: .746667rem;
+  display: flex;
+  align-items: center;
+  margin-top: .533333rem;
+  opacity: .5;
+}
+
+.items-box .item .show-more i {
+  display: inline-block;
+  width: .64rem;
+  height: .373333rem;
+  background: url(./i/icon-down.png);
+  background-size: 100%;
+  margin-left: .266667rem;
+}
+
+footer{
+  height: 3.093333rem;
+  width: 100%;
+  background-color: #252525;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;  
+}
+
+footer span.menu{
+  background-image: url(i/icon-menu.png);
+  background-size: 1.6rem .96rem;
+}
+
+footer span.cate{
+  background-image: url(./i/icon-cate.png);
+  background-size: 1.386667rem 1.386667rem;
+}
+
+footer span.discover{
+  background-image: url(./i/icon-discover.png);
+  background-size: 1.28rem 1.546667rem;
+}
+
+footer span.search{
+  background-image: url(./i/icon-search.png);
+  background-size: 1.333333rem 1.333333rem;
+}
+
+footer span.pic{
+  background-image: url(./i/icon-picture.png);
+  background-size: 1.44rem 1.28rem
+}
+
+footer span{
+  width: 20%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img .loading{
+  width: 1.6rem;
+  display: block;
+  margin: auto;
+  margin-top: 5.333333rem; 
+}
+
+.main-title i.back{
+  position: absolute;
+  left: 0;
+  background: url(./i/icon-down.png) no-repeat;
+  width: 2rem;
+  height: 1.546667rem;
+  transform: rotate(90deg);
+  background-size: 50%;
+  background-position-x: center;
+}
+
+.detail-box img{
+  width: 100%;
+  height: 12rem;
+  border-radius: 0.2rem;
+}
+
+.detail-box .tags{
+  margin-top: -1rem;
+  font-size: .746667rem;
+  margin-bottom: .533333rem;
+}
+
+.detail-box .tags span{
+  display: inline-block;
+  padding: 0 .266667rem;
+  background: #fd8021;
+  margin-right: .266667rem;
+  border-radius: 0.2rem;
+}
+
+.detail-box .desc{
+  margin-top: .533333rem;
+  font-size: .746667rem;  
+}
+
+.detail-box .steps{
+  font-size: .746667rem;
+}
+
+.comments .info{
+  display: flex;
+  align-items: center;
+  font-size: .64rem;
+  color: #6f6f6f;
+}
+
+.comments .info img{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin-right: .266667rem;
+}
+
+.comments .info .date{
+  margin-left: auto;
+}
+
+.comments .post-content{
+  margin: .533333rem 0 1.066667rem;
+  font-size: .746667rem;
+  padding-bottom: 1.066667rem;
+  border-bottom: 1px dashed #5f5f5f;
+}
+
+div .loading-cover{
+  position: fixed;
+  background: rgba(0,0,0,.6);
+  width: 100%;
+  height: 100vh;
+}
+
+div .loading-cover img{
+  width: 1.6rem;
+  display: block;
+  margin: auto;
+}

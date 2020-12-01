@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>健康管理</title>
+    <link rel="stylesheet" href="健康管理.css" />
+    <script src="健康管理.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <img class="copic" src="img-2/bg-2.png" alt="" />  
+      <div class="content-cal">
+        <h2>体脂率计算器：免费计算肥胖指数</h2>
+        <div class="line"></div>
+        <div class="option">
+          <span class="choose1">性别选择：</span>
+          男<input class="male" type="radio" name="sex" /> 女<input class="female" type="radio" name="sex" />
+          <br />
+          <span class="choose3">我的身高（厘米cm）：</span>
+          <input class="height" type="number" />
+          <br />
+          <span class="choose4">我的体重（千克kg）：</span>
+          <input class="weight" type="number" />
+          <br />
+          <span class="choose2">我的年龄：</span>
+          <input class="age" type="number" />
+          <br />
+          <button class="info" onclick="answer()">提交信息</button>
+          <div class="result"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

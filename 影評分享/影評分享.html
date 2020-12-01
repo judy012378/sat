@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>不專業影評分享</title>
+    <link rel="stylesheet" href="影評分享.css" />
+    <script src="影評分享.js"></script>
+  </head>
+  <body>
+    <div id="head">
+      <div class="head-pic">
+        <img src="img/logo5.png" alt="" />
+      </div>
+    </div>
+    <div id="banner">
+      <div class="banner-pic">
+        <img src="img/animation.jpeg" alt="鬼滅之刃" />
+      </div>
+      <div class="banner-content">
+        <p class="p1">劇場版 鬼滅の刃 無限列車編</p>
+        <p>(臺灣)上映时间：2020年10月30</p>
+        <p>導演：外崎春雄</p>
+        <p>主演：花江夏樹,鬼頭明里,下野紘,松岡禎丞,日野聰,平川大輔,石田彰</p>
+        <p>類型：動畫</p>
+        <p>製片國家/地區：日本</p>
+        <p>片長：117分钟</p>
+        <p class="p2">
+          剧情介绍：結束蝴蝶屋的訓練後，竈門炭治郎等一行人到達下一個任務地點「無限列車」，並與鬼殺隊炎柱・煉獄杏壽郎會合，一同調查列車上的四十多人失蹤事件，而下弦之壹・魘夢也潛伏在列車之中。
+        </p>
+      </div>
+    </div>
+    <div id="bottom">
+      <div class="bottom-content">
+        <a href="#" onclick="window.open('https://youtu.be/mR88lNYVqto','youtube', config='height=500,width=500')"><div>預告片欣賞</div></a>
+        <div class="content-pic">
+          <img src="img/write.png" alt="" />
+        </div>
+        <h2 class="h2">我要写影评</h2>
+        您的名字：<input type="text" id="urname" /> 
+        给予分数：<select id="score">
+          <option value="(1星)" name="star">1星</option>
+          <option value="(2星)" name="star">2星</option>
+          <option value="(3星)" name="star">3星</option>
+          <option value="(4星)" name="star">4星</option>
+          <option value="(5星)" name="star">5星</option>
+        </select>
+        <br />
+        <span class="ur-comment">您的评论：</span><textarea id="comment"></textarea>
+        <button id="provide" onclick="answer()">提交评论</button>
+      </div>
+    </div>
+    <div id="result">
+      <div class="result-pic">
+        <img src="img/Film-review.png" alt="" />
+      </div>
+      <h2 class="h2-result">劇場版 鬼滅の刃 無限列車編的评论</h2>
+      <div id="result-gather">
+      </div>
+    </div>
+  </body>
+</html>

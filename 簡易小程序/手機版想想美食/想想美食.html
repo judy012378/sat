@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="想想美食.css">
+  <title>想想美食 - 探索不一样的美食</title>
+</head>
+<body>
+  <div id="app">
+    <food-menu @get-food="receipt" :foods="foodList" v-if="!selectFood" ></food-menu>
+    <food-select @back="goBack" :select-food="selectFood" v-if="selectFood"></food-select>
+    <div class="loading-cover" v-if="loading">
+      <img  src="i/loading.gif" alt="">
+    </div>
+    <footer>
+      <span class="menu"></span>
+      <span class="cate"></span>
+      <span class="discover"></span>
+      <span class="search"></span>
+      <span class="pic"></span>
+    </footer>
+  </div>
+</body>
+<script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+      resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+      recalc = function () {
+      var clientWidth = docEl.clientWidth;
+      if (!clientWidth) return;
+      docEl.style.fontSize = 16 * (clientWidth / 320) + 'px';
+    };
+    if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="想想美食.js"></script>
+<script src="foodMenu.js"></script>
+<script src="receiptInfo.js"></script>
+</html>

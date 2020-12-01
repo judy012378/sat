@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#content{
+  height: 100vh;
+  margin: auto;
+  background-position: center;
+}
+#content .copic{
+  float: left;
+  width: 1440px;
+  margin: auto;
+}
+#content .content-cal{
+  background: white;
+  float:left;
+  margin: auto;
+  margin-left: 665px;
+  margin-top: -650px;
+  padding: 36px;
+  border-radius: 10px;
+}
+#content .content-cal h2{
+  font-size: 28px;
+  line-height: 21px;
+  color: #333333;
+}
+#content .content-cal .line{
+    height: 1px;
+    background-color: #3f7cf8;
+    margin-top: 20px;
+}
+#content .option{
+    float: left; 
+    font-size: 20px;
+    margin-top: 50px;
+}
+#content .option .choose1,.choose2{
+    float: left; 
+    margin-left: 100px;
+}
+#content .option .choose2{
+  margin-top: 40px;
+}
+#content .option .choose3,.choose4{
+    float: left; 
+    margin-top: 40px;
+}
+#content .choose1 .male,.female{
+  margin-right: 3px;
+  margin-left: 5px;
+}
+#content .height,.weight,.age{
+  margin-top: 40px;
+  margin-left: 10px;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+#content .weight{
+  margin-left: 12px;
+}
+#content .info{
+  width: 540px;
+  height: 65px;
+  background-color: #3f7cf8;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+#content .result{
+  color: red;
+  margin-left: 160px;
+}

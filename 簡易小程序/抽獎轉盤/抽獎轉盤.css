@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  background: url(i/bg-1.png);
+  background-size: 100%;;
+}
+
+
+.weel{
+  position: absolute;
+  width: 17.386667rem;
+  height: 17.333333rem;
+  background: url(i/weel.png);
+  top: 4.16rem;
+  left: calc(50% - 8.693333rem);
+  background-size: 100%;
+  transition: 5s;
+}
+
+.an{
+  transform: rotate(0deg);
+}
+
+.pointer{
+  position: absolute;
+  z-index: 10;
+  width: 3.84rem;
+  height: 4.8rem;
+  background: url(i/point.png);
+  top: 9.626667rem;
+  left: calc(50% - 1.92rem);
+  background-size: 100%;
+}
+
+.btn{
+  width: 9.013333rem;
+  height: 2.72rem;
+  display: block;
+  background: url(i/button.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 25.6rem;
+}

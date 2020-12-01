@@ -1,0 +1,132 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#header{
+  height: 50px;
+  background: white;
+}
+#header .logo{
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+#header img{
+  width: 9%;
+}
+#bottom{
+  height: 100vh;
+  background: url(img/tonyelake1.jpeg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+#bottom .title{
+  margin: auto;
+  height: 100px;
+  line-height: 90px;
+  text-align: center;
+}
+#bottom h1{
+  padding-top: 40px;
+  font-size: 50px;
+}
+#bottom ul{
+ display: flex;
+ width: 1000px;
+ margin: auto;
+ padding-top: 140px;
+ padding-left: 100px;
+}
+#mutilple{
+  margin: auto;
+  width: 1100px;
+  margin-top: -580px;
+  padding-left: 100px;
+}
+#mutilple .m1,.m2,.m3,.m4,.m5,.m6{
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: auto;
+  margin-left: 40px;
+}
+#mutilple .m1,.m2,.m3,.m4,.m5,.m6:hover{
+  cursor: pointer;
+}
+#mutilple img:hover{
+  opacity: 0.3;
+}
+#mutilple p{
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#mutilple #c,#d,#s{
+  top: 50px;
+  left: 42px;
+}
+#mutilple #p,#ca{
+  top: 45px;
+  left: 30px;
+}
+#mutilple #de{
+  top: 45px;
+  left: 20px;
+}
+#mutilple  .m1:hover p{
+  display: block;
+  color: white;
+}
+#mutilple  .m2:hover p{
+  display: block;
+  color: white;
+}
+#mutilple  .m3:hover p{
+  display: block;
+  color: white;
+}
+#mutilple  .m4:hover p{
+  display: block;
+  color: white;
+}
+#mutilple  .m5:hover p{
+  display: block;
+  color: white;
+}
+#mutilple .m6:hover p{
+  display: block;
+  color: white;
+}
+
+/* 下面的样式都是他DEMO中 li 标签中的样式，我们把它搬到CSS中 */
+.card:nth-child(n){
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card:nth-child(2n){
+  background: #00416A;
+  background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);
+  background: linear-gradient(to right, #FFE000, #799F0C, #00416A);
+}
+
+.card:nth-child(3n){
+  background: #1e3c72;
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+  background: linear-gradient(to right, #2a5298, #1e3c72);
+}
+
+
+.card:nth-child(4n){
+  background: #2C3E50;
+  background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);
+  background: linear-gradient(to right, #FD746C, #2C3E50);
+}
+
+.card:nth-child(5n){
+  background: #373B44;
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  background: linear-gradient(to right, #4286f4, #373B44);
+}
